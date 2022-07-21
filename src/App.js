@@ -66,8 +66,8 @@ function App() {
 
   // start the function and read the keys 
   const onClick = (e) => {
-    console.log(e);
     var keynum = e.nativeEvent.data.toUpperCase().toString();
+    console.log(keynum);
 
     w = w + 1;
 
@@ -151,7 +151,8 @@ function App() {
             className="form-control"
             placeholder="StartHere"
             id="gameStartInput"
-            onChange={(e) => {
+            onKeyDown={(e) => {
+              console.log(e);
               if (starting) {
                 onClick(e);
                 document.getElementById("start").click();
