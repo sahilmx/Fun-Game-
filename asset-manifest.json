@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Fun-Game-/static/css/main.991c5ad2.css",
-    "main.js": "/Fun-Game-/static/js/main.55ee85e7.js",
+    "main.js": "/Fun-Game-/static/js/main.69d7c120.js",
     "static/js/787.28cb0dcd.chunk.js": "/Fun-Game-/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Fun-Game-/index.html",
     "main.991c5ad2.css.map": "/Fun-Game-/static/css/main.991c5ad2.css.map",
-    "main.55ee85e7.js.map": "/Fun-Game-/static/js/main.55ee85e7.js.map",
+    "main.69d7c120.js.map": "/Fun-Game-/static/js/main.69d7c120.js.map",
     "787.28cb0dcd.chunk.js.map": "/Fun-Game-/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.991c5ad2.css",
-    "static/js/main.55ee85e7.js"
+    "static/js/main.69d7c120.js"
   ]
 }
