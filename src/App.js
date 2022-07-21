@@ -66,9 +66,11 @@ function App() {
 
   // start the function and read the keys 
   const onClick = (e) => {
-    var keynum = e.key.toUpperCase().toString();
+    // var keynum = e.key.toUpperCase().toString();
 
-    // var keynum = e.nativeEvent.data.toUpperCase().toString();
+     var keynum = e.nativeEvent.data;
+     keynum=keynum.substr(keynum.length - 1).toUpperCase().toString();
+    
     console.log(keynum);
 
     w = w + 1;
@@ -153,7 +155,7 @@ function App() {
             className="form-control"
             placeholder="StartHere"
             id="gameStartInput"
-            onKeyUp={(e) => {
+            onChange={(e) => {
               console.log(e);
               if (starting) {
                 onClick(e);
