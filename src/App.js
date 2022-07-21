@@ -153,7 +153,7 @@ function App() {
             className="form-control"
             placeholder="StartHere"
             id="gameStartInput"
-            onKeyDown={(e) => {
+            onKeyUp={(e) => {
               console.log(e);
               if (starting) {
                 onClick(e);
