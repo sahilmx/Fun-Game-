@@ -66,6 +66,7 @@ function App() {
 
   // start the function and read the keys 
   const onClick = (e) => {
+    console.log(e);
     var keynum = e.nativeEvent.data.toUpperCase().toString();
 
     w = w + 1;
